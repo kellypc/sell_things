@@ -3,7 +3,7 @@
 Este projeto é um template para um projeto Ruby on Rails. O objetivo dele é facilitar a criação de novas aplicações, para isso, ele traz algumas configurações que são usadas no meu dia-a-dia, e que contribuem para as boas práticas de desenvolvimento de software.
 Este projeto não se propõe abarcar todas as ferramentas/configurações disponíveis, pois estas decisões são individuais ou de times quando se está numa empresa.
 
-##Configurações
+## Configurações
 Para clonar o projeto:
 
 ```bash
