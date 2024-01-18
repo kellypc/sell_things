@@ -6,7 +6,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  validates :name, :email, presence: true
+  validates :email, presence: true
 
   has_many :courses, class_name: "course", foreign_key: "reference_id"
 end
