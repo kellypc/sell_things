@@ -5,4 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   validates :email, presence: true
+
+  has_many :courses, class_name: "course", foreign_key: "reference_id"
 end
